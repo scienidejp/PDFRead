@@ -62,8 +62,14 @@ Remove-Item -Recurse -Force $SmokeInstall -ErrorAction SilentlyContinue
 & $Setup /VERYSILENT "/DIR=$SmokeInstall" /NOICONS /SUPPRESSMSGBOXES /NORESTART
 if ($LASTEXITCODE -ne 0) { throw "silent installer smoke test failed with exit code $LASTEXITCODE" }
 $InstalledApp = Join-Path $SmokeInstall 'readpdf.exe'
-if (-not (Test-Path $InstalledApp) -or -not (Test-Path (Join-Path $SmokeInstall 'models\ATTRIBUTION.txt'))) {
-  throw 'silent installer did not install the app and OCR model notices'
+$ModelAttribution = Join-Path $SmokeInstall 'models\ATTRIBUTION.txt'
+if (-not (Test-Path $InstalledApp) -or -not (Test-Path $ModelAttribution)) {
+  $InstalledFiles = if (Test-Path $SmokeInstall) {
+    (Get-ChildItem $SmokeInstall -Recurse -File | ForEach-Object FullName) -join "`n"
+  } else {
+    '<install directory not created>'
+  }
+  throw "silent installer smoke test failed: app=$(Test-Path $InstalledApp), model attribution=$(Test-Path $ModelAttribution)`n$InstalledFiles"
 }
 & $InstalledApp --version
 if ($LASTEXITCODE -ne 0) { throw "installed ReadPDF version check failed with exit code $LASTEXITCODE" }
