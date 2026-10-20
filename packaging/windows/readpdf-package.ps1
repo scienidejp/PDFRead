@@ -59,8 +59,10 @@ if ($Bytes.Length -lt 2 -or $Bytes[0] -ne 0x4D -or $Bytes[1] -ne 0x5A) {
 }
 $SmokeInstall = Join-Path $TargetDir 'readpdf-installer-smoke'
 Remove-Item -Recurse -Force $SmokeInstall -ErrorAction SilentlyContinue
-& $Setup /VERYSILENT "/DIR=$SmokeInstall" /NOICONS /SUPPRESSMSGBOXES /NORESTART
-if ($LASTEXITCODE -ne 0) { throw "silent installer smoke test failed with exit code $LASTEXITCODE" }
+$InstallerLog = Join-Path $TargetDir 'readpdf-installer-smoke.log'
+$InstallerArgs = @('/VERYSILENT', "/DIR=`"$SmokeInstall`"", '/NOICONS', '/SUPPRESSMSGBOXES', '/NORESTART', "/LOG=`"$InstallerLog`"")
+$InstallProcess = Start-Process -FilePath $Setup -ArgumentList $InstallerArgs -Wait -PassThru
+if ($InstallProcess.ExitCode -ne 0) { throw "silent installer smoke test failed with exit code $($InstallProcess.ExitCode)" }
 $InstalledApp = Join-Path $SmokeInstall 'readpdf.exe'
 $ModelAttribution = Join-Path $SmokeInstall 'models\ATTRIBUTION.txt'
 if (-not (Test-Path $InstalledApp) -or -not (Test-Path $ModelAttribution)) {
@@ -69,7 +71,8 @@ if (-not (Test-Path $InstalledApp) -or -not (Test-Path $ModelAttribution)) {
   } else {
     '<install directory not created>'
   }
-  throw "silent installer smoke test failed: app=$(Test-Path $InstalledApp), model attribution=$(Test-Path $ModelAttribution)`n$InstalledFiles"
+  $InstallerLogContent = if (Test-Path $InstallerLog) { Get-Content $InstallerLog -Raw } else { '<installer log not created>' }
+  throw "silent installer smoke test failed: app=$(Test-Path $InstalledApp), model attribution=$(Test-Path $ModelAttribution)`n$InstalledFiles`n$InstallerLogContent"
 }
 & $InstalledApp --version
 if ($LASTEXITCODE -ne 0) { throw "installed ReadPDF version check failed with exit code $LASTEXITCODE" }
