@@ -64,7 +64,6 @@
 	A summary describes the table's purpose and layout. Add a Summary attribute to each table.	Povzetek opisuje namen in postavitev tabele. Vsaki tabeli dodajte atribut Summary.
 	AI assistant	Pomočnik za UI
 	About	O programu
-	About PdfCraft	O programu PdfCraft
 	Accepted	Potrjeno
 	Accessibility	Dostopnost
 	Accessibility Checker	Preverjanje dostopnosti
@@ -235,7 +234,6 @@
 	Archive documents	Arhiviraj dokumente
 	Area	Ploščina
 	Arrow	Puščica
-	ArtCraft website	Spletna stran ArtCraft
 	Ask about this document	Vprašaj o tem dokumentu
 	Asks GitHub for the latest release. Nothing is downloaded or installed automatically.	Vpraša GitHub za najnovejšo izdajo. Ničesar se ne prenese ali namesti samodejno.
 	Associated with content	Povezano z vsebino
@@ -404,6 +402,7 @@
 	Combined {n} files	Združenih datotek: {n}
 	Combo	Kombinirano polje
 	Coming in milestone	Prihaja v fazi
+	Coming soon	Kmalu
 	Coming in milestone {m}. Items marked Ready work today.	Prihaja v fazi {m}. Elementi, označeni z Omogočeno, delujejo že danes.
 	Command	Ukaz
 	Comment and form data	Podatki komentarjev in obrazcev
@@ -980,8 +979,6 @@
 	JavaScript is turned off (Preferences ▸ JavaScript).	JavaScript je izklopljen (Nastavitve > JavaScript).
 	JavaScript, e.g. getField("total").value	JavaScript, npr. getField("total").value
 	Join our Discord	Discord kanal
-	Join the ArtCraft Discord	Pridružite se Discordu ArtCraft
-	Join the ArtCraft community	Pridružite se skupnosti ArtCraft
 	July	Julij
 	June	Junij
 	Justify	Obojestransko poravnano

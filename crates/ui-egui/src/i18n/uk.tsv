@@ -162,7 +162,6 @@
 	Current page — type a page number or label (such as iv) and press Enter	Поточна сторінка — введіть номер або позначку сторінки (наприклад iv) і натисніть Enter
 	Welcome to PdfCraft	Вітаємо в PdfCraft
 	An open-source PDF workbench — local, private, and scriptable.	Відкритий інструментарій для PDF — локальний, приватний і з підтримкою сценаріїв.
-	Join the ArtCraft community	Приєднатися до спільноти ArtCraft
 	Get help, share feedback and follow development on Discord.	Отримуйте допомогу, діліться відгуками й стежте за розробкою в Discord.
 	Recommended tools	Рекомендовані інструменти
 	Use now	Використати зараз
@@ -308,12 +307,9 @@
 	Split document…	Розділити документ…
 	Number pages…	Пронумерувати сторінки…
 	Keyboard shortcuts	Клавіатурні скорочення
-	Join the ArtCraft Discord	Приєднатися до Discord ArtCraft
 	PdfCraft web page	Вебсторінка PdfCraft
 	PdfCraft on GitHub	PdfCraft на GitHub
-	ArtCraft website	Вебсайт ArtCraft
 	Check for updates…	Перевірити оновлення…
-	About PdfCraft	Про PdfCraft
 	Export a PDF	Експортувати PDF
 	Export to	Експортувати в
 	Microsoft Word (.docx)	Microsoft Word (.docx)
@@ -483,6 +479,7 @@
 	open to see what it will include	відкрийте, щоб побачити, що він міститиме
 	Optional: needs an AI provider you configure	Необов’язково: потрібен налаштований вами постачальник ШІ
 	Coming in milestone	З’явиться на етапі
+	Coming soon	Незабаром
 	Items marked Ready work today.	Елементи з позначкою «Готово» вже працюють.
 	Preview	Попередній перегляд
 	Edit fields	Редагувати поля

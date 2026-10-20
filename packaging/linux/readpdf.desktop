@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Name=ReadPDF
+GenericName=PDF Reader and Editor
+Comment=Read, annotate, organize and edit PDF documents
+Exec=readpdf %U
+TryExec=readpdf
+Icon=org.readpdf.ReadPDF
+Terminal=false
+StartupNotify=true
+StartupWMClass=org.readpdf.ReadPDF
+Categories=Office;Viewer;
+Keywords=pdf;reader;viewer;editor;annotate;sign;forms;
+MimeType=application/pdf;

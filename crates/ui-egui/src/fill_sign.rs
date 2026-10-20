@@ -868,7 +868,7 @@ fn scan_tab(
     ui.label(
         egui::RichText::new(tl!(
             "Sign a sheet of white paper and take a photo of it in bright, even light (use the flash). Choose the photo or drop it here: PdfCraft finds the signature and removes the paper."
-        ))
+        ).replace("PdfCraft", "ReadPDF"))
         .color(t.text_muted),
     );
     let mut browse = false;

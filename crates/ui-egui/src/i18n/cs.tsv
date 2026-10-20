@@ -117,12 +117,9 @@
 	Split document…	Rozdělit dokument…
 	Number pages…	Očíslovat stránky…
 	Keyboard shortcuts	Klávesové zkratky
-	Join the ArtCraft Discord	Připojit se ke komunitě ArtCraft na Discordu
 	PdfCraft web page	Webová stránka PdfCraft
 	PdfCraft on GitHub	PdfCraft na GitHubu
-	ArtCraft website	Web ArtCraft
 	Check for updates…	Zkontrolovat aktualizace…
-	About PdfCraft	O aplikaci PdfCraft
 	Auto	Automaticky
 	Continuous scrolling	Plynulé posouvání
 	Single page	Jednostránkové zobrazení
@@ -281,7 +278,6 @@ key	Space	Mezerník
 	Current page — type a page number or label (such as iv) and press Enter	Aktuální stránka — zadejte číslo nebo označení stránky (třeba iv) a stiskněte Enter
 	Welcome to PdfCraft	Vítá vás PdfCraft
 	An open-source PDF workbench — local, private, and scriptable.	Open-source dílna pro PDF — lokální, soukromá a skriptovatelná.
-	Join the ArtCraft community	Připojte se ke komunitě ArtCraft
 	Get help, share feedback and follow development on Discord.	Získejte pomoc, sdílejte zpětnou vazbu a sledujte vývoj na Discordu.
 	Recommended tools	Doporučené nástroje
 	Use now	Použít
@@ -566,6 +562,7 @@ key	Space	Mezerník
 	open to see what it will include	otevřete a uvidíte, co bude obsahovat
 	Optional: needs an AI provider you configure	Volitelné: vyžaduje poskytovatele AI, kterého nastavíte
 	Coming in milestone	Přijde v milníku
+	Coming soon	Již brzy
 	Items marked Ready work today.	Položky označené Připraveno fungují už dnes.
 	Preview	Náhled
 	Edit fields	Upravit pole

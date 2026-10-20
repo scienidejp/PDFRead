@@ -1782,15 +1782,11 @@
 	Split document…	分割文件…
 	Number pages…	編訂頁碼…
 	Keyboard shortcuts	鍵盤快速鍵
-	Join the ArtCraft Discord	加入 ArtCraft Discord
-	Join the ArtCraft community	加入 ArtCraft 社群
 	Get help, share feedback and follow development on Discord.	在 Discord 取得協助、提供意見並追蹤開發進度。
 	Join our Discord	加入 Discord 社群
 	PdfCraft web page	PdfCraft 網頁
 	PdfCraft on GitHub	GitHub 上的 PdfCraft
-	ArtCraft website	ArtCraft 網站
 	Check for updates…	尋找更新…
-	About PdfCraft	關於 PdfCraft
 	JavaScript console…	JavaScript 主控台…
 	Document JavaScripts…	文件 JavaScript…
 	Recognize text…	辨識文字…
@@ -1816,6 +1812,7 @@
 	Planned for milestone	預計於里程碑
 	open to see what it will include	開啟以檢視預計功能
 	Coming in milestone	將於里程碑
+	Coming soon	即將推出
 	Items marked Ready work today.	標示為「可使用」的項目現已可用。
 	Rotate page	旋轉頁面
 	Delete page	刪除頁面

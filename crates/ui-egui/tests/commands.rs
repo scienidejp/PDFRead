@@ -280,6 +280,32 @@ fn the_pages_menu_comes_from_the_registry() {
 }
 
 #[test]
+fn all_tools_menu_opens_the_existing_page_organization_workflow() {
+    let mut h = harness();
+    h.get_by_label("Menu").click();
+    h.run_steps(2);
+    h.get_by_label("PDF tools ⏵").hover();
+    h.run_steps(3);
+    h.get_by_label_contains("Combine files…");
+    h.get_by_label_contains("Split document…");
+    h.get_by_label_contains("Reduce file size…");
+    h.get_by_label_contains("Export to Word…");
+    h.get_by_label_contains("Remove security");
+    h.get_by_label("Organize pages ").click();
+    h.run_steps(3);
+    assert!(h.state().views[0].organize, "the menu dispatches to the registered organize command");
+}
+
+#[test]
+fn planned_tools_report_coming_soon_without_milestone_ids() {
+    let mut h = harness();
+    h.state_mut().run_command("export.xlsx");
+    h.run_steps(3);
+    h.get_by_label_contains("Coming soon");
+    assert!(h.query_by_label_contains("M10").is_none());
+}
+
+#[test]
 fn the_open_recent_menu_lists_files_and_opens_one() {
     let dir = std::env::temp_dir().join(format!("pdfcraft-recent-{}", std::process::id()));
     std::fs::create_dir_all(&dir).unwrap();

@@ -207,11 +207,6 @@ impl PdfCraftApp {
                 }
                 self.dialog = Some(Dialog::NumberPages);
             }
-            link if pdfcraft_engine::links::for_command(link).is_some() => {
-                if let Some(l) = pdfcraft_engine::links::for_command(link) {
-                    self.open_url(l.url);
-                }
-            }
             "bookmark.add" => self.bookmark_action(crate::panels::BmAction::New),
             "bookmark.from_structure" => self.bookmark_action(crate::panels::BmAction::FromStructure),
             "edit.undo" => self.undo(),
@@ -666,7 +661,6 @@ impl PdfCraftApp {
             "page.split" => self.dialog = Some(Dialog::Split),
             "help.shortcuts" => self.dialog = Some(Dialog::Shortcuts),
             "help.about" => self.dialog = Some(Dialog::About),
-            "help.check_updates" => self.check_for_updates(),
             _ => return false,
         }
         true
@@ -795,15 +789,22 @@ pub(crate) fn registry_menu(app: &mut PdfCraftApp, ui: &mut egui::Ui, menu: &str
             }
             continue;
         }
-        let shortcut = spec.shortcut.or((spec.id == "edit.copy").then_some(COPY)).map(|s| shortcut_label(ui.ctx(), s)).unwrap_or_default();
-        let enabled = app.command_enabled(spec);
-        let resp = ui.add_enabled(enabled, egui::Button::new(label).shortcut_text(shortcut));
-        if resp.clicked() {
-            app.execute(spec.id);
-            ui.close();
-        }
+        registry_command_menu_item(app, ui, spec.id);
     }
     let _ = widgets::menu_item;
+}
+
+/// Render one registered command using the same live label and enablement as its regular menu.
+pub(crate) fn registry_command_menu_item(app: &mut PdfCraftApp, ui: &mut egui::Ui, id: &str) {
+    let Some(spec) = commands::command(id) else { return };
+    let label = commands::current_label(spec, &app.session, app.active_ids().map(|(_, id)| id));
+    let label = crate::i18n::menu_label(spec.id, &label);
+    let shortcut = spec.shortcut.or((spec.id == "edit.copy").then_some(COPY)).map(|s| shortcut_label(ui.ctx(), s)).unwrap_or_default();
+    let resp = ui.add_enabled(app.command_enabled(spec), egui::Button::new(label).shortcut_text(shortcut));
+    if resp.clicked() {
+        app.execute(spec.id);
+        ui.close();
+    }
 }
 
 #[cfg(test)]

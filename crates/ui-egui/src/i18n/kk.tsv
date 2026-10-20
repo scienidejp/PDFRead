@@ -125,7 +125,6 @@
 	Current page — type a page number or label (such as iv) and press Enter	Ағымдағы бет — бет нөмірін немесе белгісін (мысалы, iv) теріңіз де, Enter пернесін басыңыз
 	Welcome to PdfCraft	PdfCraft-ге қош келдіңіз
 	An open-source PDF workbench — local, private, and scriptable.	Ашық бастапқы кодты PDF жұмыс орны — жергілікті, жеке әрі скрипттерді қолдайтын.
-	Join the ArtCraft community	ArtCraft қауымдастығына қосылыңыз
 	Get help, share feedback and follow development on Discord.	Көмек алыңыз, пікір бөлісіңіз және Discord-тағы әзірлеуді қадағалаңыз.
 	Recommended tools	Ұсынылған құралдар
 	Use now	Дәл қазір пайдалану
@@ -270,12 +269,9 @@
 	Split document…	Құжатты бөлу…
 	Number pages…	Беттерді нөмірлеу…
 	Keyboard shortcuts	Пернетақта тіркесімдері
-	Join the ArtCraft Discord	ArtCraft Discord-ына қосылыңыз
 	PdfCraft web page	PdfCraft веб-сайты
 	PdfCraft on GitHub	GitHub-тағы PdfCraft
-	ArtCraft website	ArtCraft веб-сайты
 	Check for updates…	Жаңартуларды тексеру…
-	About PdfCraft	PdfCraft туралы
 	Export a PDF	PDF экспорттау
 	Export to	Мынаған экспорттау
 	Microsoft Word (.docx)	Microsoft Word (.docx)
@@ -445,6 +441,7 @@
 	open to see what it will include	ашып, нені қамтитынын көріңіз
 	Optional: needs an AI provider you configure	Міндетті емес: сіз теңшейтін ЖИ провайдері қажет
 	Coming in milestone	Кезеңде пайда болады
+	Coming soon	Жақында
 	Items marked Ready work today.	«Дайын» деп белгіленген элементтер бүгін-ақ жұмыс істейді.
 	Preview	Алдын ала көру
 	Edit fields	Өрістерді түзету

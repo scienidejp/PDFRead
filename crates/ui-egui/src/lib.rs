@@ -49,7 +49,6 @@ mod compare_ui;
 pub mod control;
 mod create_multiple_ui;
 mod create_ui;
-mod credits;
 mod crop;
 mod drag_pointer;
 mod export_ui;
@@ -1535,7 +1534,7 @@ impl PdfCraftApp {
                     },
                 );
                 #[cfg(target_arch = "wasm32")]
-                self.notify_fmt("Downloading attachments on the web arrives with M3.10 ({n} bytes ready)", &[("n", &bytes.len().to_string())]);
+                self.notify_fmt("Downloading attachments on the web is coming soon ({n} bytes ready)", &[("n", &bytes.len().to_string())]);
             }
         }
     }
@@ -1957,9 +1956,9 @@ impl PdfCraftApp {
             Err(e) => {
                 use pdfcraft_engine::links::BlockedLink;
                 let template = if matches!(e, BlockedLink::MailFile | BlockedLink::MailEncodedWord) {
-                    "{who} in this document tried to open an address PdfCraft won't open: {e}."
+                    "{who} in this document tried to open an address ReadPDF won't open: {e}."
                 } else {
-                    "{who} in this document tried to open an address PdfCraft won't open: {e}. Only web (http, https) and email (mailto) links open from documents."
+                    "{who} in this document tried to open an address ReadPDF won't open: {e}. Only web (http, https) and email (mailto) links open from documents."
                 };
                 self.notify_fmt(template, &[("who", tl!(origin.noun())), ("e", &e.to_string())]);
             }
@@ -2056,7 +2055,7 @@ impl PdfCraftApp {
         }
     }
 
-    /// Run a catalogue command. Commands that aren't implemented yet say which milestone ships them.
+    /// Run a catalogue command. Commands that aren't implemented yet report that they're coming soon.
     pub fn run_command(&mut self, command: &str) {
         if let Some(spec) = pdfcraft_engine::commands::command(command) {
             use pdfcraft_engine::commands::Needs;
@@ -2074,13 +2073,13 @@ impl PdfCraftApp {
             self.execute(command);
             return;
         }
-        // Not implemented yet: say which milestone ships it.
+        // Not implemented yet.
         let when = pdfcraft_engine::catalog::TOOL_GROUPS
             .iter()
             .flat_map(|g| g.sections.iter().flat_map(|s| s.items.iter()))
             .find(|i| i.command == command)
             .map(|i| match i.availability {
-                pdfcraft_engine::catalog::Availability::Planned(m) => crate::i18n::fmt(tl!("ships in milestone {m}"), &[("m", m)]),
+                pdfcraft_engine::catalog::Availability::Planned(_) => tl!("Coming soon").to_string(),
                 pdfcraft_engine::catalog::Availability::Provider => tl!("needs an AI provider (off by default)").to_string(),
                 pdfcraft_engine::catalog::Availability::Ready => tl!("is available").to_string(),
             })
@@ -2910,7 +2909,7 @@ impl eframe::App for PdfCraftApp {
     }
 
     fn save(&mut self, storage: &mut dyn eframe::Storage) {
-        storage.set_string("pdfcraft", self.persist());
+        storage.set_string("readpdf", self.persist());
     }
 
     fn logic(&mut self, ctx: &egui::Context, _frame: &mut eframe::Frame) {
@@ -3087,7 +3086,7 @@ impl eframe::App for PdfCraftApp {
             .active
             .and_then(|i| crate::canvas::tab_label(self, i))
             .or_else(|| self.combine_showing().then(|| tl!("Combine files").to_owned()))
-            .map_or_else(|| "PdfCraft".to_owned(), |name| format!("{name} — PdfCraft"));
+            .map_or_else(|| "ReadPDF".to_owned(), |name| format!("{name} — ReadPDF"));
         if title != self.window_title {
             ctx.send_viewport_cmd(egui::ViewportCommand::Title(title.clone()));
             self.window_title = title;

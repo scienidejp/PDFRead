@@ -105,8 +105,8 @@ fn tool_row(ui: &mut egui::Ui, t: &Tokens, g: &ToolGroup) -> egui::Response {
     icons::paint(ui, Rect::from_min_size(body.min + vec2(6.0, 7.0), vec2(20.0, 20.0)), g.icon, 19.0, hue(g));
     let right_reserved = match (g.badge, g.availability) {
         (Some(b), _) => ui.fonts_mut(|f| f.layout_no_wrap(tl!(b).to_owned(), theme::semibold(9.5), Color32::WHITE).size().x) + 26.0,
-        (None, Availability::Planned(m)) if resp.hovered() => {
-            let hint = format!("{} · {m}", tl!("Planned"));
+        (None, Availability::Planned(_)) if resp.hovered() => {
+            let hint = tl!("Coming soon").to_owned();
             ui.fonts_mut(|f| f.layout_no_wrap(hint, theme::medium(10.5), t.text_faint).size().x) + 18.0
         }
         _ => 8.0,
@@ -122,21 +122,14 @@ fn tool_row(ui: &mut egui::Ui, t: &Tokens, g: &ToolGroup) -> egui::Response {
             ui.painter().rect_filled(r, CornerRadius::same(4), t.badge_new);
             ui.painter().text(r.center(), Align2::CENTER_CENTER, badge, font, Color32::WHITE);
         }
-        // Planned tools: a quiet milestone hint instead of a chip, so the list stays calm.
-        (None, Availability::Planned(m)) if resp.hovered() => {
-            ui.painter().text(
-                body.right_center() - vec2(10.0, 0.0),
-                Align2::RIGHT_CENTER,
-                format!("{} · {m}", tl!("Planned")),
-                theme::medium(10.5),
-                t.text_faint,
-            );
+        (None, Availability::Planned(_)) if resp.hovered() => {
+            ui.painter().text(body.right_center() - vec2(10.0, 0.0), Align2::RIGHT_CENTER, tl!("Coming soon"), theme::medium(10.5), t.text_faint);
         }
         _ => {}
     }
     let tip = match g.availability {
         Availability::Ready => tl!("Available").to_string(),
-        Availability::Planned(m) => format!("{} {m} — {}", tl!("Planned for milestone"), tl!("open to see what it will include")),
+        Availability::Planned(_) => tl!("Coming soon").to_string(),
         Availability::Provider => tl!("Optional: needs an AI provider you configure").into(),
     };
     let tip = if clipped { format!("{} — {tip}", tl!(g.label)) } else { tip };
@@ -152,14 +145,10 @@ fn tool_detail(app: &mut PdfCraftApp, ui: &mut egui::Ui, t: &Tokens, g: &'static
     if close {
         app.left_open = false;
     }
-    if let Availability::Planned(m) = g.availability {
+    if let Availability::Planned(_) = g.availability {
         egui::Frame::NONE.fill(t.accent_soft).corner_radius(CornerRadius::same(8)).inner_margin(egui::Margin::same(10)).show(ui, |ui| {
             ui.set_width(ui.available_width());
-            ui.label(
-                egui::RichText::new(format!("{} {m}. {}", tl!("Coming in milestone"), tl!("Items marked Ready work today.")))
-                    .color(t.text)
-                    .font(theme::regular(12.0)),
-            );
+            ui.label(egui::RichText::new(tl!("Coming soon")).color(t.text).font(theme::regular(12.0)));
         });
     }
     if g.id == "measure" {
@@ -1379,7 +1368,7 @@ fn field_tip(f: &pdfcraft_render::Field) -> String {
         tip.push_str(&format!(" — {tt}"));
     }
     if f.has_actions {
-        tip.push_str(&format!("\n{}", tl!("Has JavaScript actions (run in M6)")));
+        tip.push_str(&format!("\n{}", tl!("Has JavaScript actions (coming soon)")));
     }
     tip
 }

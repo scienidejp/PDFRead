@@ -7,7 +7,7 @@ licence = "MIT OR Apache-2.0"
 licence_file = "LICENSE-MIT"
 kind = "translation"
 usage = "Greek UI strings, compiled in by crates/ui-egui/src/i18n/mod.rs"
-sha256 = "cefa955aa92790d6773cb1d1e15e19019b3165a00528d57d6617362e1d1988ab"
+sha256 = "3df1cf3e16e5ffc73d35138929c752608b0cf9dfb59c8c418eb8b3eeadf4d10b"
 
 # ATTRIBUTION.toml: one entry per asset (AGENTS.md §1). The source of truth for provenance and licences.
 # ATTRIBUTION.md is generated from this file: `cargo xtask assets --write`. Checked by `cargo xtask assets` (part of `xtask ci`).
@@ -30,7 +30,7 @@ licence = "MIT OR Apache-2.0"
 licence_file = "LICENSE-MIT"
 kind = "translation"
 usage = "Simplified Chinese UI strings, compiled in by crates/ui-egui/src/i18n/mod.rs"
-sha256 = "dbfebf4e9b2e9ac31ecf72202c2098173e72ebfaf90e9fee8f0563a6734fe31f"
+sha256 = "441a84c5cbce4fd5e46039a082b9827fc7317f53d1707c6ada6ba04db53c34c2"
 
 [[asset]]
 path = "crates/ui-egui/src/i18n/zh-hant.tsv"
@@ -41,7 +41,7 @@ licence = "MIT OR Apache-2.0"
 licence_file = "LICENSE-MIT"
 kind = "translation"
 usage = "Traditional Chinese UI strings, compiled in by crates/ui-egui/src/i18n/mod.rs"
-sha256 = "0b0dafa3806a6b3508684f64e1f07b435113f8efd0e59201d12250c63c1d9547"
+sha256 = "5c13ab3cb37eb757ec11c63578b69621a37ef4c4145b9876539b06844880b0ff"
 
 [[asset]]
 path = "crates/ui-egui/src/i18n/cs.tsv"
@@ -52,7 +52,7 @@ licence = "MIT OR Apache-2.0"
 licence_file = "LICENSE-MIT"
 kind = "translation"
 usage = "Czech UI strings, compiled in by crates/ui-egui/src/i18n/mod.rs"
-sha256 = "898a5240fa59cac42ef6b99cb60bcfca0094ac27370e1c8d020bd27936b56517"
+sha256 = "5ffaae05bb71af18d92a9613319de804d3f40eacae612355dccf456ef56c7c51"
 
 [[asset]]
 path = "crates/ui-egui/src/i18n/pt-br.tsv"
@@ -63,7 +63,7 @@ licence = "MIT OR Apache-2.0"
 licence_file = "LICENSE-MIT"
 kind = "translation"
 usage = "Brazilian Portuguese UI strings, compiled in by crates/ui-egui/src/i18n/mod.rs"
-sha256 = "b4745c94797575529cd0e78c18c71fa2c0dfddfbf19b9c40b41dc2057c6f6543"
+sha256 = "d22873949f172544f334734709e6fe25147a9fbf849c843c77773bd965feba30"
 
 [[asset]]
 path = "crates/ui-egui/src/i18n/es.tsv"
@@ -74,7 +74,7 @@ licence = "MIT OR Apache-2.0"
 licence_file = "LICENSE-MIT"
 kind = "translation"
 usage = "Spanish UI strings, compiled in by crates/ui-egui/src/i18n/mod.rs"
-sha256 = "2acb3f6522d6d1f744343f474fe4c51ebec610a888a7fa83fc9422228e6fa3c1"
+sha256 = "a636760c0ec974ffb1f586dcb5a1334ad18ffb36af6ef550ed6c596752c437a7"
 
 [[asset]]
 path = "crates/ui-egui/src/i18n/fr.tsv"
@@ -85,7 +85,7 @@ licence = "MIT OR Apache-2.0"
 licence_file = "LICENSE-MIT"
 kind = "translation"
 usage = "French UI strings, compiled in by crates/ui-egui/src/i18n/mod.rs"
-sha256 = "1b739478a4f186a49900cce84edbe136206a53b46340322df4caf77bb3fb5b12"
+sha256 = "d6bbfbbbd9c899744d93f27d7becd73e30983c3ab90c04bdba1e1e893f9b0b91"
 
 [[asset]]
 path = "crates/ui-egui/src/i18n/de.tsv"
@@ -96,7 +96,7 @@ licence = "MIT OR Apache-2.0"
 licence_file = "LICENSE-MIT"
 kind = "translation"
 usage = "German UI strings, compiled in by crates/ui-egui/src/i18n/mod.rs"
-sha256 = "da3b71608ff7fe6e230b076207cee96ac01f66e068ca1be83af1ad56ac9c60eb"
+sha256 = "87f80e9803f8401be515c6b97dc4881d6cb446d1920607e3e653f762fe495131"
 
 [[asset]]
 path = "crates/ui-egui/src/i18n/te.tsv"
@@ -107,7 +107,7 @@ licence = "MIT OR Apache-2.0"
 licence_file = "LICENSE-MIT"
 kind = "translation"
 usage = "Telugu UI strings, compiled in by crates/ui-egui/src/i18n/mod.rs"
-sha256 = "989d2e5f57cf22c21a85951835ca9fbd05e314da67eb4c17332df1f03679fa00"
+sha256 = "e4943c108c1644c8c3fc5e4517567fc5c43dbe03b83c3460b45894730790c36d"
 
 [[asset]]
 path = "crates/ui-egui/src/i18n/it.tsv"
@@ -118,7 +118,7 @@ licence = "MIT OR Apache-2.0"
 licence_file = "LICENSE-MIT"
 kind = "translation"
 usage = "Italian UI strings, compiled in by crates/ui-egui/src/i18n/mod.rs"
-sha256 = "5e84916e3ad8670216360695689fe8fd624365a29886f66a3c655ba126892f5b"
+sha256 = "470d25bddb52d40d55e10c0b01c8a613aefb3ca964a68bb94f04783238122d87"
 
 [[asset]]
 path = "crates/ui-egui/src/i18n/pl.tsv"
@@ -129,7 +129,7 @@ licence = "MIT OR Apache-2.0"
 licence_file = "LICENSE-MIT"
 kind = "translation"
 usage = "Polish UI strings, compiled in by crates/ui-egui/src/i18n/mod.rs"
-sha256 = "988bcf2e0322a46c0464ff7b91ab5d90193b0ea7f454812d12595eb843de6fc7"
+sha256 = "4edbb24e4f170517d686ad0c34094e7486ef41d6eaef0929444d483f59849a5f"
 
 [[asset]]
 path = "crates/ui-egui/src/i18n/ru.tsv"
@@ -140,7 +140,7 @@ licence = "MIT OR Apache-2.0"
 licence_file = "LICENSE-MIT"
 kind = "translation"
 usage = "Russian UI strings, compiled in by crates/ui-egui/src/i18n/mod.rs"
-sha256 = "084f4ea06f31c632ad90b0e87f66240ce5b5dc012ac7770987d44918ee66f452"
+sha256 = "85a87948b989d30ed2662c88a710a90d6d305bfac0bd228e514fc25f2288e647"
 
 [[asset]]
 path = "crates/ui-egui/src/i18n/hu.tsv"
@@ -151,7 +151,7 @@ licence = "MIT OR Apache-2.0"
 licence_file = "LICENSE-MIT"
 kind = "translation"
 usage = "Hungarian UI strings, compiled in by crates/ui-egui/src/i18n/mod.rs"
-sha256 = "973cd90ec34c8a973d146a0e2c73c1d632e17357c3d87ccf10c59e64d12c1587"
+sha256 = "3579c70b04edfa3935dd1e7250aa827ed2c1ecfc7fd4b2491b6623853c12c884"
 
 [[asset]]
 path = "crates/ui-egui/src/i18n/bg.tsv"
@@ -162,7 +162,7 @@ licence = "MIT OR Apache-2.0"
 licence_file = "LICENSE-MIT"
 kind = "translation"
 usage = "Bulgarian UI strings, compiled in by crates/ui-egui/src/i18n/mod.rs"
-sha256 = "485f85d4053c9661ddda2ed9394a0644c77b489feb598d02f12ef209e11f2ee3"
+sha256 = "6a8c1cfcda4d4a39ec11c4bc62fb692e340d4db96e848c4b7a7221848ab445c0"
 
 [[asset]]
 path = "crates/ui-egui/src/i18n/kk.tsv"
@@ -173,7 +173,7 @@ licence = "MIT OR Apache-2.0"
 licence_file = "LICENSE-MIT"
 kind = "translation"
 usage = "Kazakh UI strings, compiled in by crates/ui-egui/src/i18n/mod.rs"
-sha256 = "24524864022ab2abeff68b5979519eee4e92134d0c4053d40c741bc7f01c249c"
+sha256 = "ba86bb95add03d52bace290e808718b20d28b1c7c1375c2a211151bc986d878d"
 
 [[asset]]
 path = "crates/ui-egui/src/i18n/ja.tsv"
@@ -184,7 +184,7 @@ licence = "MIT OR Apache-2.0"
 licence_file = "LICENSE-MIT"
 kind = "translation"
 usage = "Japanese UI strings, compiled in by crates/ui-egui/src/i18n/mod.rs"
-sha256 = "bc6d123bdb34d5d7c22717fed1a86ff20e7e493acc1e155e61e61e2dc74459aa"
+sha256 = "124b572732fd695f0ec70490f917e231ddf7ac5741dc07ac6327e878f26fa96b"
 
 [[asset]]
 path = "crates/ui-egui/src/i18n/uk.tsv"
@@ -195,7 +195,7 @@ licence = "MIT OR Apache-2.0"
 licence_file = "LICENSE-MIT"
 kind = "translation"
 usage = "Ukrainian UI strings, compiled in by crates/ui-egui/src/i18n/mod.rs"
-sha256 = "82678dbe730f56062037ea78de165b2c016b3fa670fb1cbfc7cd713eca900bac"
+sha256 = "f382fac6b645e7da1e2ba2d7e18a51823510b4faa426317174d9d13c0b5d6765"
 
 [[asset]]
 path = "crates/ui-egui/src/i18n/ar.tsv"
@@ -206,7 +206,7 @@ licence = "MIT OR Apache-2.0"
 licence_file = "LICENSE-MIT"
 kind = "translation"
 usage = "Arabic UI strings, compiled in by crates/ui-egui/src/i18n/mod.rs"
-sha256 = "304d661b27cdb5246f6b2974b4b5e78667f0928cda3588440be3d8f35f254679"
+sha256 = "08525b4a694788d19f55d0f91bfdeb38155e6251d5fd742e9cabd6d8339ac0b6"
 
 [[asset]]
 path = "crates/ui-egui/src/i18n/tr.tsv"
@@ -217,7 +217,7 @@ licence = "MIT OR Apache-2.0"
 licence_file = "LICENSE-MIT"
 kind = "translation"
 usage = "Turkish UI strings, compiled in by crates/ui-egui/src/i18n/mod.rs"
-sha256 = "05e2b7d5401166d362ba055120fba9a1645d6ec324997cf670e19fafcb0c54cf"
+sha256 = "31ea6842ebda6f04824e615ca9e312bdeed9c1f06be7530cfab1c8d1dd2eff7a"
 
 [[asset]]
 path = "crates/ui-egui/src/i18n/lt.tsv"
@@ -228,7 +228,7 @@ licence = "MIT OR Apache-2.0"
 licence_file = "LICENSE-MIT"
 kind = "translation"
 usage = "Lithuanian UI strings, compiled in by crates/ui-egui/src/i18n/mod.rs"
-sha256 = "17c8579e0e9d1524ffbeb87e7b30c14562dbaac64400826ee786cecfe31648fa"
+sha256 = "5262daee803c66a5007ebf280d97939d15b777015735ed6797fc225a07bc5e99"
 
 
 [[asset]]
@@ -2712,94 +2712,6 @@ usage = "Showcase PDF (cargo xtask demo-pdf)"
 sha256 = "acd98e64795781b2058f07b18475e0ecee2a0fe2b42a49e2f9e37d0d6bf66ce6"
 
 [[asset]]
-path = "docs/brand/artcraft-logo-white.png"
-title = "ArtCraft brand: artcraft-logo-white"
-author = "ArtCraft Team"
-source = "ArtCraft Team brand assets (provided by the project owner, 2026-10-01; identical copies in storytold/photocraft)"
-licence = "LicenseRef-Storyteller-Trademark"
-licence_file = "docs/brand/LICENSE-brand.txt"
-kind = "logo"
-usage = "ArtCraft branding next to the community links (About dialog, Help menu, home screen) and in docs. ArtCraft Team trademark, not open source; may be used only unmodified within PdfCraft; forks and modified versions must remove it."
-sha256 = "8b86aeb06a12a90ba77a60e0d90329272310e244ee5c1f9b161b391280ca79d8"
-
-[[asset]]
-path = "docs/brand/artcraft-logo-white.svg"
-title = "ArtCraft brand: artcraft-logo-white"
-author = "ArtCraft Team"
-source = "ArtCraft Team brand assets (provided by the project owner, 2026-10-01; identical copies in storytold/photocraft)"
-licence = "LicenseRef-Storyteller-Trademark"
-licence_file = "docs/brand/LICENSE-brand.txt"
-kind = "logo"
-usage = "ArtCraft branding next to the community links (About dialog, Help menu, home screen) and in docs. ArtCraft Team trademark, not open source; may be used only unmodified within PdfCraft; forks and modified versions must remove it."
-sha256 = "a3e03dc49f9ad4225b8517d5424309c8d1c864d3996d862190d9cc797d5af427"
-
-[[asset]]
-path = "docs/brand/artcraft-logo.png"
-title = "ArtCraft brand: artcraft-logo"
-author = "ArtCraft Team"
-source = "ArtCraft Team brand assets (provided by the project owner, 2026-10-01; identical copies in storytold/photocraft)"
-licence = "LicenseRef-Storyteller-Trademark"
-licence_file = "docs/brand/LICENSE-brand.txt"
-kind = "logo"
-usage = "ArtCraft branding next to the community links (About dialog, Help menu, home screen) and in docs. ArtCraft Team trademark, not open source; may be used only unmodified within PdfCraft; forks and modified versions must remove it."
-sha256 = "08fc6d9d3717e8f13417bac6f9025b50e11d1e0b32e9e000883d2fe0c4a0c67b"
-
-[[asset]]
-path = "docs/brand/artcraft-logo.svg"
-title = "ArtCraft brand: artcraft-logo"
-author = "ArtCraft Team"
-source = "ArtCraft Team brand assets (provided by the project owner, 2026-10-01; identical copies in storytold/photocraft)"
-licence = "LicenseRef-Storyteller-Trademark"
-licence_file = "docs/brand/LICENSE-brand.txt"
-kind = "logo"
-usage = "ArtCraft branding next to the community links (About dialog, Help menu, home screen) and in docs. ArtCraft Team trademark, not open source; may be used only unmodified within PdfCraft; forks and modified versions must remove it."
-sha256 = "3188971e1affdf4f6be4fa65f715376a7a305e6aa741ec78b0296c8f934eff08"
-
-[[asset]]
-path = "docs/brand/artcraft-mark-black.png"
-title = "ArtCraft brand: artcraft-mark-black"
-author = "ArtCraft Team"
-source = "ArtCraft Team brand assets (provided by the project owner, 2026-10-01; identical copies in storytold/photocraft)"
-licence = "LicenseRef-Storyteller-Trademark"
-licence_file = "docs/brand/LICENSE-brand.txt"
-kind = "logo"
-usage = "ArtCraft branding next to the community links (About dialog, Help menu, home screen) and in docs. ArtCraft Team trademark, not open source; may be used only unmodified within PdfCraft; forks and modified versions must remove it."
-sha256 = "5954cc0306e1b9d7beb47097e2e842157113a39d9aba078b57304902687936a9"
-
-[[asset]]
-path = "docs/brand/artcraft-mark-black.svg"
-title = "ArtCraft brand: artcraft-mark-black"
-author = "ArtCraft Team"
-source = "ArtCraft Team brand assets (provided by the project owner, 2026-10-01; identical copies in storytold/photocraft)"
-licence = "LicenseRef-Storyteller-Trademark"
-licence_file = "docs/brand/LICENSE-brand.txt"
-kind = "logo"
-usage = "ArtCraft branding next to the community links (About dialog, Help menu, home screen) and in docs. ArtCraft Team trademark, not open source; may be used only unmodified within PdfCraft; forks and modified versions must remove it."
-sha256 = "570adcb4f7ba8ca0647f97074476bab81d3272988f1cdee52efa21bf026036a4"
-
-[[asset]]
-path = "docs/brand/artcraft-mark.png"
-title = "ArtCraft brand: artcraft-mark"
-author = "ArtCraft Team"
-source = "ArtCraft Team brand assets (provided by the project owner, 2026-10-01; identical copies in storytold/photocraft)"
-licence = "LicenseRef-Storyteller-Trademark"
-licence_file = "docs/brand/LICENSE-brand.txt"
-kind = "logo"
-usage = "ArtCraft branding next to the community links (About dialog, Help menu, home screen) and in docs. ArtCraft Team trademark, not open source; may be used only unmodified within PdfCraft; forks and modified versions must remove it."
-sha256 = "9d372157a949c147318561e629b11561c28b7cbc14c84b516a3fe6e84d8fbbad"
-
-[[asset]]
-path = "docs/brand/artcraft-mark.svg"
-title = "ArtCraft brand: artcraft-mark"
-author = "ArtCraft Team"
-source = "ArtCraft Team brand assets (provided by the project owner, 2026-10-01; identical copies in storytold/photocraft)"
-licence = "LicenseRef-Storyteller-Trademark"
-licence_file = "docs/brand/LICENSE-brand.txt"
-kind = "logo"
-usage = "ArtCraft branding next to the community links (About dialog, Help menu, home screen) and in docs. ArtCraft Team trademark, not open source; may be used only unmodified within PdfCraft; forks and modified versions must remove it."
-sha256 = "f87af81b6fa411da8820eed2bfdcc54c0ee9cd453b4e868c64f56c69db142d0e"
-
-[[asset]]
 path = "assets/app-icon/pdfcraft.svg"
 title = "PdfCraft app icon (master vector)"
 author = "PdfCraft contributors (drawn by the project owner in ArtCraft; vectorised with craftrules vectorize_tile.py)"
@@ -2974,149 +2886,6 @@ licence_file = "assets/app-icon/LICENSE.txt"
 kind = "icon"
 usage = "Linux hicolor theme icon (packaging/linux/ai.storyteller.pdfcraft.desktop)"
 sha256 = "52b384a10a2a7fdd3145d9822972cfd568ef0cb7312549bd4399addd89d45a6d"
-
-[[asset]]
-path = "docs/images/pdfcraft-bookmarks.png"
-title = "PdfCraft screenshot: Bookmarks"
-author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
-source = "this repository"
-licence = "MIT OR Apache-2.0"
-licence_file = "LICENSE-MIT"
-kind = "image"
-usage = "README: navigation. Shows only PdfCraft UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
-sha256 = "6daf2dceda8737da0c5f9e7895e5c4cc24cc845938ffca478713c2230573240d"
-
-[[asset]]
-path = "docs/images/pdfcraft-dark.png"
-title = "PdfCraft screenshot: Dark theme"
-author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
-source = "this repository"
-licence = "MIT OR Apache-2.0"
-licence_file = "LICENSE-MIT"
-kind = "image"
-usage = "README: themes. Shows only PdfCraft UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
-sha256 = "18fbd4931b2a8d01a88aef0d5d0837e3cdc12aa35f8529bedbb4a930565d47e5"
-
-[[asset]]
-path = "docs/images/pdfcraft-find.png"
-title = "PdfCraft screenshot: Find text"
-author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
-source = "this repository"
-licence = "MIT OR Apache-2.0"
-licence_file = "LICENSE-MIT"
-kind = "image"
-usage = "README: search. Shows only PdfCraft UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
-sha256 = "b52771502be4c03e2dabf107c77d5183fad7f39655146d59761dda855c2d4b52"
-
-[[asset]]
-path = "docs/images/pdfcraft-forms.png"
-title = "PdfCraft screenshot: Interactive form"
-author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
-source = "this repository"
-licence = "MIT OR Apache-2.0"
-licence_file = "LICENSE-MIT"
-kind = "image"
-usage = "README: forms. Shows only PdfCraft UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
-sha256 = "f8eb7705056d32e9c8e4d3b8b197c3e500faae08672e4622d6327d2799b536e7"
-
-[[asset]]
-path = "docs/images/pdfcraft-layers.png"
-title = "PdfCraft screenshot: Layers"
-author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
-source = "this repository"
-licence = "MIT OR Apache-2.0"
-licence_file = "LICENSE-MIT"
-kind = "image"
-usage = "README: layers. Shows only PdfCraft UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
-sha256 = "20ff9e1c6ecc74d000a7514b82fe9e39f82c8ef5e7c1a52e9060c5ca349020d6"
-
-[[asset]]
-path = "docs/images/pdfcraft-organize.png"
-title = "PdfCraft screenshot: Organize pages"
-author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
-source = "this repository"
-licence = "MIT OR Apache-2.0"
-licence_file = "LICENSE-MIT"
-kind = "image"
-usage = "README: organize. Shows only PdfCraft UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
-sha256 = "0a309ba73bcfccbe0106824b55fc347cc0b32293d1db68149d5eccec9c087ba1"
-
-[[asset]]
-path = "docs/images/pdfcraft-palette.png"
-title = "PdfCraft screenshot: Command palette"
-author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
-source = "this repository"
-licence = "MIT OR Apache-2.0"
-licence_file = "LICENSE-MIT"
-kind = "image"
-usage = "README: tools. Shows only PdfCraft UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
-sha256 = "74867793e506c03255459e838eef0b08e485c13b7ea8a6b8de3ec16870067eda"
-
-[[asset]]
-path = "docs/images/pdfcraft-properties.png"
-title = "PdfCraft screenshot: Document properties"
-author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
-source = "this repository"
-licence = "MIT OR Apache-2.0"
-licence_file = "LICENSE-MIT"
-kind = "image"
-usage = "README: metadata. Shows only PdfCraft UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
-sha256 = "86f293543b299fa1665db999a68978138f8d61a4082d7c5b5025498e188da459"
-
-[[asset]]
-path = "docs/images/pdfcraft-scripts.png"
-title = "PdfCraft screenshot: Scripts of the world"
-author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
-source = "this repository"
-licence = "MIT OR Apache-2.0"
-licence_file = "LICENSE-MIT"
-kind = "image"
-usage = "README: rendering. Shows only PdfCraft UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
-sha256 = "0dde8ed5a14dee7396379963adff517bd249c7dd0fe494c389b612e643584b15"
-
-[[asset]]
-path = "docs/images/pdfcraft-split.png"
-title = "PdfCraft screenshot: Split dialog"
-author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
-source = "this repository"
-licence = "MIT OR Apache-2.0"
-licence_file = "LICENSE-MIT"
-kind = "image"
-usage = "README: split. Shows only PdfCraft UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
-sha256 = "bf31e13b563ead564af968c5fae8d1c07b91ee38867d0cf1aae9e0582efc2fe5"
-
-[[asset]]
-path = "docs/images/pdfcraft-tools.png"
-title = "PdfCraft screenshot: All tools"
-author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
-source = "this repository"
-licence = "MIT OR Apache-2.0"
-licence_file = "LICENSE-MIT"
-kind = "image"
-usage = "README: tool catalogue. Shows PdfCraft UI, Lucide icons, the showcase PDF built from the [[fetched]] OFL fonts, and the ArtCraft mark (Storyteller trademark from docs/brand/, not covered by this licence)"
-sha256 = "61731a921902e285d40826d401f1ef25624dabb8c8ac1f8f0c09c1292a17ee1a"
-
-[[asset]]
-path = "docs/images/pdfcraft-twoup.png"
-title = "PdfCraft screenshot: Two-up reading"
-author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
-source = "this repository"
-licence = "MIT OR Apache-2.0"
-licence_file = "LICENSE-MIT"
-kind = "image"
-usage = "README: layouts. Shows only PdfCraft UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
-sha256 = "a72ed1b84c827e3aa1dd3282d857b4742f02d8ff23fc39b62115c840ebad14b4"
-
-[[asset]]
-path = "docs/images/pdfcraft-viewer.png"
-title = "PdfCraft screenshot: Viewer with comments"
-author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
-source = "this repository"
-licence = "MIT OR Apache-2.0"
-licence_file = "LICENSE-MIT"
-kind = "image"
-usage = "README hero. Shows only PdfCraft UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
-sha256 = "ecd261028d8837f7f7c013dd796d81ca7e89643bcfcbad3ab9fbfbe87ded04e3"
 
 [[asset]]
 path = "assets/icons/pin.svg"
@@ -3352,7 +3121,7 @@ licence = "MIT OR Apache-2.0"
 licence_file = "LICENSE-MIT"
 kind = "translation"
 usage = "Vietnamese UI strings, compiled in by crates/ui-egui/src/i18n/mod.rs"
-sha256 = "2d1c4b4276d02512a4e20101be95a1671de5c4f5cdfd661887af5ebab0db06a6"
+sha256 = "a9f07c6c32a3b2e79173fe13456d9bc92af291f4f0eeb5f05cdc03d098b57689"
 
 [[asset]]
 path = "crates/ui-egui/src/i18n/sl.tsv"
@@ -3363,7 +3132,7 @@ licence = "MIT OR Apache-2.0"
 licence_file = "LICENSE-MIT"
 kind = "translation"
 usage = "Slovene UI strings, compiled in by crates/ui-egui/src/i18n/mod.rs"
-sha256 = "8f8a259264cda06eb6d9a9bf91dc7d873a8561213a9a9e7acbd32623bef40be0"
+sha256 = "ad2eae37dbb6f619cd737a6a0a5775228e16f91e379bb0fd6720e5d1a838d716"
 
 [[asset]]
 
@@ -3376,3 +3145,168 @@ licence_file = "vendor/vello_common/LICENSE-MIT"
 kind = "image"
 usage = "Reference picture of the vendored vello_common probe module, for people only; the build reads probe.rgba, not this file"
 sha256 = "78c59a0cfd2c829909d77006f94e34dac1ae5d1f90e7f10f72e84de541fef697"
+
+[[asset]]
+path = "assets/app-icon/readpdf.svg"
+title = "ReadPDF application icon source"
+author = "ReadPDF contributors"
+source = "Original ReadPDF artwork"
+licence = "MIT OR Apache-2.0"
+licence_file = "LICENSE-MIT"
+kind = "icon"
+usage = "ReadPDF application icon"
+sha256 = "1e2d17423df42d9e7a235d0f448da00ac2f3e3b1a444bd0fa3080ad790e6fb1c"
+
+[[asset]]
+path = "assets/app-icon/readpdf.png"
+title = "ReadPDF application icon"
+author = "ReadPDF contributors"
+source = "Rasterized from assets/app-icon/readpdf.svg"
+licence = "MIT OR Apache-2.0"
+licence_file = "LICENSE-MIT"
+kind = "icon"
+usage = "ReadPDF application and desktop launcher icon"
+sha256 = "7803adf0f49a9b7199ffab20dc9ef789c21d849e6d8c23d462b76cbafedd92a1"
+
+[[asset]]
+path = "assets/app-icon/readpdf.ico"
+title = "ReadPDF Windows application icon"
+author = "ReadPDF contributors"
+source = "Rasterized from assets/app-icon/readpdf.png"
+licence = "MIT OR Apache-2.0"
+licence_file = "LICENSE-MIT"
+kind = "icon"
+usage = "Embedded in the Windows ReadPDF executable and installer"
+sha256 = "87ac315f2734629e26e58fa7e3676af93671e342e937fad55fdf8287482c9595"
+
+[[asset]]
+path = "docs/images/pdfcraft-bookmarks.png"
+title = "PdfCraft screenshot: Bookmarks"
+author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
+source = "this repository"
+licence = "MIT OR Apache-2.0"
+licence_file = "LICENSE-MIT"
+kind = "image"
+usage = "README: navigation. Shows only ReadPDF UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
+sha256 = "6daf2dceda8737da0c5f9e7895e5c4cc24cc845938ffca478713c2230573240d"
+
+[[asset]]
+path = "docs/images/pdfcraft-dark.png"
+title = "PdfCraft screenshot: Dark theme"
+author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
+source = "this repository"
+licence = "MIT OR Apache-2.0"
+licence_file = "LICENSE-MIT"
+kind = "image"
+usage = "README: themes. Shows only ReadPDF UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
+sha256 = "18fbd4931b2a8d01a88aef0d5d0837e3cdc12aa35f8529bedbb4a930565d47e5"
+
+[[asset]]
+path = "docs/images/pdfcraft-find.png"
+title = "PdfCraft screenshot: Find text"
+author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
+source = "this repository"
+licence = "MIT OR Apache-2.0"
+licence_file = "LICENSE-MIT"
+kind = "image"
+usage = "README: search. Shows only ReadPDF UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
+sha256 = "b52771502be4c03e2dabf107c77d5183fad7f39655146d59761dda855c2d4b52"
+
+[[asset]]
+path = "docs/images/pdfcraft-forms.png"
+title = "PdfCraft screenshot: Interactive form"
+author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
+source = "this repository"
+licence = "MIT OR Apache-2.0"
+licence_file = "LICENSE-MIT"
+kind = "image"
+usage = "README: forms. Shows only ReadPDF UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
+sha256 = "f8eb7705056d32e9c8e4d3b8b197c3e500faae08672e4622d6327d2799b536e7"
+
+[[asset]]
+path = "docs/images/pdfcraft-layers.png"
+title = "PdfCraft screenshot: Layers"
+author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
+source = "this repository"
+licence = "MIT OR Apache-2.0"
+licence_file = "LICENSE-MIT"
+kind = "image"
+usage = "README: layers. Shows only ReadPDF UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
+sha256 = "20ff9e1c6ecc74d000a7514b82fe9e39f82c8ef5e7c1a52e9060c5ca349020d6"
+
+[[asset]]
+path = "docs/images/pdfcraft-organize.png"
+title = "PdfCraft screenshot: Organize pages"
+author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
+source = "this repository"
+licence = "MIT OR Apache-2.0"
+licence_file = "LICENSE-MIT"
+kind = "image"
+usage = "README: organize. Shows only ReadPDF UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
+sha256 = "0a309ba73bcfccbe0106824b55fc347cc0b32293d1db68149d5eccec9c087ba1"
+
+[[asset]]
+path = "docs/images/pdfcraft-palette.png"
+title = "PdfCraft screenshot: Command palette"
+author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
+source = "this repository"
+licence = "MIT OR Apache-2.0"
+licence_file = "LICENSE-MIT"
+kind = "image"
+usage = "README: tools. Shows only ReadPDF UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
+sha256 = "74867793e506c03255459e838eef0b08e485c13b7ea8a6b8de3ec16870067eda"
+
+[[asset]]
+path = "docs/images/pdfcraft-properties.png"
+title = "PdfCraft screenshot: Document properties"
+author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
+source = "this repository"
+licence = "MIT OR Apache-2.0"
+licence_file = "LICENSE-MIT"
+kind = "image"
+usage = "README: metadata. Shows only ReadPDF UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
+sha256 = "86f293543b299fa1665db999a68978138f8d61a4082d7c5b5025498e188da459"
+
+[[asset]]
+path = "docs/images/pdfcraft-scripts.png"
+title = "PdfCraft screenshot: Scripts of the world"
+author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
+source = "this repository"
+licence = "MIT OR Apache-2.0"
+licence_file = "LICENSE-MIT"
+kind = "image"
+usage = "README: rendering. Shows only ReadPDF UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
+sha256 = "0dde8ed5a14dee7396379963adff517bd249c7dd0fe494c389b612e643584b15"
+
+[[asset]]
+path = "docs/images/pdfcraft-split.png"
+title = "PdfCraft screenshot: Split dialog"
+author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
+source = "this repository"
+licence = "MIT OR Apache-2.0"
+licence_file = "LICENSE-MIT"
+kind = "image"
+usage = "README: split. Shows only ReadPDF UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
+sha256 = "bf31e13b563ead564af968c5fae8d1c07b91ee38867d0cf1aae9e0582efc2fe5"
+
+[[asset]]
+path = "docs/images/pdfcraft-twoup.png"
+title = "PdfCraft screenshot: Two-up reading"
+author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
+source = "this repository"
+licence = "MIT OR Apache-2.0"
+licence_file = "LICENSE-MIT"
+kind = "image"
+usage = "README: layouts. Shows only ReadPDF UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
+sha256 = "a72ed1b84c827e3aa1dd3282d857b4742f02d8ff23fc39b62115c840ebad14b4"
+
+[[asset]]
+path = "docs/images/pdfcraft-viewer.png"
+title = "PdfCraft screenshot: Viewer with comments"
+author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
+source = "this repository"
+licence = "MIT OR Apache-2.0"
+licence_file = "LICENSE-MIT"
+kind = "image"
+usage = "README hero. Shows only ReadPDF UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
+sha256 = "e9d9091170ccdf98d37c0d63b3b45c92350d848abde39ae2e9359faa0dcb4a95"
