@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <b>Created by JFranken</b>
+  <b>Created to have PDF reader for Linux</b>
 </p>
 
 <br>
